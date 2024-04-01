@@ -1,0 +1,147 @@
+*{padding: 0;
+  margin: 0;}
+
+  body { background-color: rgb(40, 40, 51);
+         font-family: sans-serif;
+         padding-bottom: 20px;
+  }
+  .menu-bar {background: rgb(16, 95, 107);
+            text-align: start;
+            margin-left: 1px;}
+  
+ .menu-bar ul {display: inline-flex;
+               list-style: none;
+               color: blanchedalmond;}
+.menu-bar ul li {width: 62px;
+                 margin: 1px;
+                 padding: 5px;}
+.menu-bar ul li a {text-decoration: none;
+                   color: blanchedalmond;}
+  
+.menu-bar ul li:hover {background:rgb(69, 134, 190) ; border-radius: 3px;}
+
+.tab-1 {display:none ;}
+
+.menu-bar ul li:hover .tab-1 {display: block;
+                   position: absolute;
+                   list-style: none;
+                   color: blanchedalmond;
+                   margin-top: 2px;
+                   margin-left: px;}
+
+.menu-bar ul li:hover .tab-1 ul 
+           {display: block;
+            margin: 10px;}
+
+.menu-bar ul li:hover .tab-1 ul li { width: 250px;
+        padding: 10px;
+        border-bottom: 2px;
+        background: transparent;
+        text-align: left;}
+              
+.menu-bar ul li:hover .tab-1 ul li:last-child {border-bottom: none;}
+
+.menu-bar ul li:hover .tab-1 ul li:hover {background:rgb(70, 125, 141) ; border-radius: 3px;}
+
+.menu-bar .fa-solid {float: right;
+                     padding-left: 10px;}
+
+ .menu-bar .tab-5 {float: right;
+                   padding-left: 10px;}
+
+ .menu-bar .tab-6 {float: right;
+                     padding-left: 10px;}
+
+.menu-bar .tab-7 {float: right;
+               padding-left: 10px;}
+         
+ .menu-bar .tab-8 {float: right;
+                     padding-left: 10px;}
+       
+
+.tab-2 {display: none;}
+
+.tab-1 ul li:hover  .tab-2 {display: block;
+                            position: absolute;
+                            list-style: none;
+                            color: blanchedalmond;
+                            margin-top: 2px;
+                             margin-left: px;
+                             padding-bottom: 20px;}
+
+.tab-1 ul li:hover  .tab-2 ul
+ {display: block;
+ margin: 10px;}
+
+.tab-1 ul li:hover .tab-2 ul li { width: 200px;
+        padding: 10px;
+        border-bottom: 2px;
+        background: transparent;
+        text-align: left;}
+              
+.tab-1 ul li:hover  .tab-2 ul li:last-child {border-bottom: none;}
+
+.tab-1 ul li:hover .tab-2 ul li:hover {background:rgb(70, 125, 141) ; border-radius: 3px;}
+
+.tab-3 {display: none;}
+
+.menu-bar ul li:hover .tab-3 {display: block;
+                   position: absolute;
+                   list-style: none;
+                   color: blanchedalmond;
+                   margin-top: 2px;
+                   margin-left: px;}
+
+.menu-bar ul li:hover .tab-3 ul 
+ {display: block;
+ margin: 10px;}
+
+.menu-bar ul li:hover .tab-3 ul li { width: 150px;
+        padding: 10px;
+        background: transparent;
+        text-align: left;}
+              
+.menu-bar ul li:hover .tab-3 ul li:last-child {border-bottom: none;}
+
+.menu-bar ul li:hover .tab-3 ul li:hover {background:rgb(70, 125, 141) ; border-radius: 3px;}
+
+.tab-3 .tab-9 {float: right;
+       padding-left: 10px;}
+
+.tab-3 .tab-10 {float: right;
+         padding-left: 10px;}
+
+ .tab-3 .tab-11 {float: right;
+              padding-left: 10px;}
+       
+.tab-3 .tab-12 {float: right;
+                padding-left: 10px;}
+       
+
+.tab-4 {display: none;}
+
+.tab-2 ul li:hover .tab-4 {display: block;
+                   position: absolute;
+                   list-style: none;
+                   color: blanchedalmond;
+                   margin-top: 2px;
+                   margin-left: px;
+                   padding-bottom: 30px;}
+
+.tab-2 ul li:hover .tab-4 ul 
+ {display: block;
+ margin: 10px;}
+
+.tab-2 ul li:hover .tab-4 ul li { width: 200px;
+        padding: 10px;
+        border-bottom: 1px dotted;
+        background: transparent;
+        text-align: left;}
+              
+.tab-2 ul li:hover .tab-4 ul li:last-child {border-bottom: none;}
+
+.tab-2 ul li:hover .tab-4 ul li:hover {background:rgb(70, 125, 141) ; border-radius: 3px;}
+.tab-2 .fa-solid {float: right;
+       padding-left: 10px;}
+
+ 

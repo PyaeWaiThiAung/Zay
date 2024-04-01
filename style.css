@@ -1,0 +1,79 @@
+.container {
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background-color: brown;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  color: aliceblue;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+.tab {
+  background-color: brown;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: large;
+  color: aliceblue;
+  cursor: pointer;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.input {
+  background-color: bisque;
+  width: 50%;
+  height: 30px;
+  margin: 30px;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 10px;
+}
+.remember-forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: large;
+  color: aliceblue;
+  cursor: pointer;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: brown;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: large;
+  color: aliceblue;
+  cursor: pointer;
+}
